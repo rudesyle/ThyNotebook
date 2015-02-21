@@ -1,0 +1,96 @@
+﻿html, body, #fullheight {
+    font-family: arial;
+    font-size: 10px;
+    height: 100%;
+    min-height: 100% !important;
+}
+
+section li {
+    border-bottom: 1px solid rgb(191, 191, 191);
+    padding: 16px 0 16px 0;
+}
+
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+.deleteLink {
+    color: red;
+    cursor: pointer !important;
+}
+
+
+.noteSummary {
+    font-size: 10px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    padding: 10px 2px 10px 2px;
+}
+
+#noteSummaryNoteContent {
+    height: 60px;   
+    min-height: 60px;
+    max-height: 60px;
+    display: inline-block;
+}
+
+#noteSummaryNoteName {
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.columnHeader {
+    font-size: 14px;
+    background-color: lightblue;
+    font-weight: bolder;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+#noteCreateDate {
+    font-weight: bolder;
+    color:steelblue;
+}
+
+#noteTitle {
+    width: 200px;
+}
+
+.icon {
+    cursor: pointer
+}
+
+.mce-menubar{
+    display: none !important;
+}
+
+.mce-statusbar{
+    display: none !important;
+}
+
+
+.title {
+    
+}
+
+#notebook, .ngRow, .ng-binding { cursor: pointer !important; }
+
+#leftContent, #rightContent, #middleContent, #topContent {
+    border: 1px solid rgb(191, 191, 191);
+    height: 100%;
+    min-height: 100% !important;
+}
+
+#AddNotebook{cursor: pointer}
+
+#leftContent {
+    background-color: rgb(191, 191, 191);
+    width: 200px;
+}
+
+#middleContent { width: 300px; }
+
+#rightContent { padding: 25px 50px; }
+
+.noteEditAreaContainer {
+    overflow: hidden;
+    padding: 25px 25px;
+}
