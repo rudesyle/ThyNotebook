@@ -34,7 +34,8 @@ namespace ThyNotebook.Data
                 docSession.SaveChanges();
             }
 
-            /*if (notebook.NotebookId == 0)
+            /*
+             * if (notebook.NotebookId == 0)
             {
                 notebook.CreateDate = notebook.UpdateDate;
                 GetDb().Insert("notebook", "notebookid", notebook);
